@@ -35,6 +35,7 @@ body {
 }
 .menu__list a:hover {
     border-color: red;
+    color: darkred;
 }
 .menu__item {
     margin-bottom: 20px;
