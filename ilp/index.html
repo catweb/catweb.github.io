@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html>
+	<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+	<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+	<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+	<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<title>Главная</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=1300">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,300&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="./css/style.css">
+		<script src="./js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="maincontent">
+				<section class="section section_main">
+					<div class="section_main__bg">
+						<!--video(autoplay loop).section_main__video-->
+						<!--    source(src="./img/ira.mp4" type="video/mp4")-->
+					</div>
+					<div data-animate="0" class="section_main__container">
+						<div class="section_main__logo"><img src='./img/main/logo.png'></div>
+						<div class="section_main__text">Наша экспертиза – реализация <br> проектов на стыке DIGITAL и CRM</div>
+						<div class="section_main__icons">
+							<div data-section="2" data-slide="1" class="section_main__icons__item nav_link">
+								<div class="section_main__icons__pic"><img src='./img/main/i_digital.png'></div>
+								<div class="section_main__icons__title">Digital Consumer <br> Promo</div>
+							</div>
+							<div data-section="2" data-slide="2" class="section_main__icons__item nav_link">
+								<div class="section_main__icons__pic"><img src='./img/main/i_trade.png'></div>
+								<div class="section_main__icons__title">Trade Marketing <br> RLP</div>
+							</div>
+							<div data-section="2" data-slide="0" class="section_main__icons__item nav_link">
+								<div class="section_main__icons__pic"><img src='./img/main/i_strategy.png'></div>
+								<div class="section_main__icons__title">Marketing <br> Strategy</div>
+							</div>
+							<div data-section="3" data-slide="1" class="section_main__icons__item nav_link">
+								<div class="section_main__icons__pic"><img src='./img/main/i_crm.png'></div>
+								<div class="section_main__icons__title">iLPcrm ©</div>
+							</div>
+						</div>
+					</div>
+					<div data-section="1" data-slide="1" class="section_main__down nav_link"><img src='./img/main/btn_down.png'></div>
+				</section>
+				<section class="section">
+					<div class="slider"><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_o.png'></a></div>
+							<div class="section section_contacts">
+								<div class="section_contacts__map"></div>
+								<div data-animate="0" class="section_contacts__fig_white"><img src="./img/contacts/corner.png" class="section_contacts__block__corner"></div>
+								<div class="slider__item__content">
+									<div data-animate="0" class="section_contacts__block">
+										<div class="section_contacts__container">
+											<div class="section_contacts__headline">
+												<div class="section__headline">Контакты</div>
+											</div>
+											<div class="section_contacts__list">
+												<div class="section_contacts__list__item">
+													<div class="section_contacts__list__pic"><img src='./img/contacts/i_location.png'></div>
+													<div class="section_contacts__list__text">
+														<div>Москва, БЦ «Союз», Лужнецкая набережная,</div>
+														<div>2/4, стр. 4, офис 212</div>
+													</div>
+												</div>
+												<div class="section_contacts__list__item">
+													<div class="section_contacts__list__pic"><img src='./img/contacts/i_phone.png'></div>
+													<div class="section_contacts__list__text section_contacts__list__text_bold">+7 (499) 705-01-84</div>
+												</div>
+												<div class="section_contacts__list__item">
+													<div class="section_contacts__list__pic"><img src='./img/contacts/i_mail.png'></div>
+													<div class="section_contacts__list__text">hello@ilp-agency.ru</div>
+												</div>
+											</div>
+											<div class="section_contacts__btn__wrap"><a href="#" class="section_contacts__btn"><span class="section_contacts__btn__text">Связаться с нами</span></a></div>
+											<div class="section_contacts__socials"><a href="#" class="section_contacts__socials__item"><img src='./img/contacts/i_fb.png'></a><a href="#" class="section_contacts__socials__item"><img src='./img/contacts/i_tw.png'></a><a href="#" class="section_contacts__socials__item"><img src='./img/contacts/i_vk.png'></a></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="section_contacts__popup">
+								<div class="section_contacts__form"><a href="#" class="section_contacts__form__close"></a>
+									<div class="section_contacts__form__title">
+										<div class="section_contacts__form__title__text">Связаться с нами</div>
+									</div>
+									<form action="./ajax/contacts.json" method="post">
+										<div class="section_contacts__form__field">
+											<label class="section_contacts__form__input__wrap">
+												<input type="text" placeholder="Имя" name="name" class="section_contacts__form__input">
+											</label>
+											<label class="section_contacts__form__input__wrap">
+												<input type="text" placeholder="Компания" name="company" class="section_contacts__form__input">
+											</label>
+										</div>
+										<div class="section_contacts__form__field">
+											<label class="section_contacts__form__input__wrap">
+												<input type="text" placeholder="Телефон" name="phone" class="section_contacts__form__input">
+											</label>
+											<label class="section_contacts__form__input__wrap">
+												<input type="text" placeholder="E-mail" name="mail" class="section_contacts__form__input">
+											</label>
+										</div>
+										<div class="section_contacts__form__field">
+											<label class="section_contacts__form__input__wrap section_contacts__form__input__wrap_lg">
+												<input type="text" placeholder="Тема сообщения" name="theme" class="section_contacts__form__input">
+											</label>
+										</div>
+										<div class="section_contacts__form__field">
+											<label class="section_contacts__form__textarea__wrap">
+												<textarea placeholder="Сообщение" name="message" class="section_contacts__form__textarea"></textarea>
+											</label>
+										</div>
+										<input type="submit" value="отправить" class="section_contacts__form__submit">
+									</form>
+								</div>
+								<div class="section_contacts__response"><a href="#" class="section_contacts__response__close"></a>
+									<div class="section_contacts__response__cont">
+										<div class="section_contacts__response__text"></div>
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_b.png'></a><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_o.png'></a></div>
+							<div class="section section_brand">
+								<div data-animate="0" class="section_brand__fig_orange"></div>
+								<div data-animate="1" class="slider__item__content">
+									<div class="section_brand__container">
+										<div class="section_brand__headline">
+											<div class="section__headline section__headline_white">Об агентстве</div>
+										</div>
+										<div class="section_brand__intro">
+											<div class="section_brand__intro__text">
+												<div>Мы разрабатываем и реализуем стратегии</div>
+												<div>долгосрочного взаимодействия с потребителями</div>
+												<div>через их вовлечение в прямую</div>
+												<div>коммуникацию с Брендом.</div>
+											</div>
+										</div>
+										<div class="section_brand__about">
+											<div class="section_brand__about__text">
+												<div><span>Наша экспертиза -</span> реализация</div>
+												<div>проектов на стыке DIGITAL и CRM,</div>
+												<div>то есть проектов, связанных</div>
+												<div>с Интернетом и работой</div>
+												<div>с персональными данными.</div>
+											</div>
+										</div>
+									</div>
+									<div class="section_brand__about_law">
+										<div class="section_brand__about__text">
+											<div>В соответствии со статьей 22</div>
+											<div>федерального закона №152-ФЗ,</div>
+											<div>компания зарегистрирована</div>
+											<div>в общероссийском реестре</div>
+											<div>операторов ПДн.</div>
+										</div>
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_o.png'></a><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_o.png'></a></div>
+							<div class="section section_about">
+								<div data-animate="0" class="section_about__fig_white"><img src="./img/about/corner.gif" class="section_about__fig_white__corner"></div>
+								<div class="section_about__fig_black"><img src="./img/about/corner_black.png" class="section_about__fig_black__corner"></div>
+								<div data-animate="1" class="slider__item__content">
+									<div class="section_about__container">
+										<div class="section_about__headline">
+											<div class="section__headline section__headline_white">Об агентстве</div>
+										</div>
+										<div class="section_about__intro">
+											<div class="section_about__intro__text">
+												<div>В работе мы используем</div>
+												<div>нашу собственную CRM</div>
+												<div>платформу - iLPcrm ©.</div>
+											</div>
+										</div>
+										<div class="section_about__descr">
+											<div class="section_about__descr__text">
+												<div>С помощью CRM платформы мы легко управляем</div>
+												<div>проектами любой сложности, собираем и анализируем</div>
+												<div>большие объемы разнообразной информации об</div>
+												<div>участниках маркетинговых кампаний и ведем</div>
+												<div>персонализированную коммуникацию с ними за счет</div>
+												<div>точного понимания их интересов</div>
+											</div>
+										</div>
+									</div>
+									<div class="section_about__clients">
+										<div class="section_about__clients__pic"><img src="./img/about/pic.png"></div>
+										<div class="section_about__clients__text">
+											<div><span>Наши клиенты – </span></div>
+											<div>FMCG, Retail, HoReCa,</div>
+											<div>финансы и сфера услуг</div>
+										</div>
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_o.png'></a></div>
+							<div class="section section_client">
+								<div class="slider__item__content">
+									<div class="section_client__container">
+										<div class="section_client__headline">
+											<div class="section__headline">клиенты</div>
+										</div><a href="#" data-section="2" data-slide="1" class="section_client__btn nav_link"><span>наши услуги</span></a>
+										<div data-animate="0" class="section_client__list">
+											<div class="section_client__list__item"><img src='./img/about/partners/spectrum.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/pepsico.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/henkel.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/vw.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/concept.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/jti.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/efco.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/loreal.png'></div>
+											<div class="section_client__list__item"><img src='./img/about/partners/ochakovo.png'></div>
+										</div>
+									</div>
+								</div>
+							</div></span></div>
+				</section>
+				<section class="section">
+					<div class="slider"><span class="slider__item">
+							<div class="slider__controls">
+								<!--/a(href='#').slider__controls__btn.slider__controls__btn_prev--><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_w.png'></a>
+							</div>
+							<div class="section section_strategy">
+								<div data-animate="0" class="section_strategy__fig_orange"></div>
+								<div class="section_strategy__fig_white"></div>
+								<div class="slider__item__content">
+									<div class="section_strategy__container">
+										<div class="section_trade__headline">
+											<div class="section__headline section__headline_white">услуги</div>
+										</div>
+										<div data-animate="0" class="section_strategy__title">
+											<div class="section_strategy__title__text">
+												<div>Marketing</div>
+												<div>Strategy</div>
+											</div>
+										</div>
+										<div data-animate="1" class="section_strategy__plane"></div>
+									</div>
+									<div class="section_strategy__about">
+										<div data-animate="0" class="section_strategy__about__text">
+											<div>Разработка стратегии - основной</div>
+											<div>этап каждого из наших проектов.</div>
+											<div>Со стратегии проект начинается</div>
+											<div>и стратегией заканчивается.</div>
+										</div><a href="#" data-animate="0" class="section_strategy__about__btn"><span>НАШ ПОДХОД К РАЗРАБОТКЕ СТРАТЕГИИ</span></a>
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_o.png'></a><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_o.png'></a></div>
+							<div class="section section_digital">
+								<div data-animate="0" class="section_digital__fig_grey"></div>
+								<div class="section_digital__fig_white"><img src="./img/service/corner.png" class="section_digital__fig_white__corner"></div>
+								<div class="slider__item__content">
+									<div class="section_digital__container">
+										<div class="section_trade__headline">
+											<div class="section__headline">услуги</div>
+										</div>
+										<div data-animate="1" class="section_digital__title">
+											<div class="section_digital__title__text">
+												<div>Digital</div>
+												<div>Consumer</div>
+												<div>promo</div>
+											</div>
+										</div>
+										<div class="section_digital__list">
+											<div data-animate="1" class="section_digital__list__item">
+												<div class="section_digital__list__num"><span>1</span></div>
+												<div class="section_digital__list__cont">
+													<div class="section_digital__tasks__title">
+														<div class="section_digital__tasks__title__text">Разработка проекта</div>
+													</div>
+													<div class="section_digital__tasks__list">
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Стратегия и Креатив</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Механика</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Расчет KPI</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Мотивационный фонд</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Юридические и финансовые аспекты</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Планирование</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div data-animate="1" class="section_digital__list__item">
+												<div class="section_digital__list__num section_digital__list__num_black"><span>2</span></div>
+												<div class="section_digital__list__cont">
+													<div class="section_digital__tasks__title">
+														<div class="section_digital__tasks__title__text">Ведение проекта</div>
+													</div>
+													<div class="section_digital__tasks__list">
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Одно окно по управлению</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Регулярная отчетность</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">
+																<div>Экспертный анализ хода действия</div>
+																<div>проекта</div>
+															</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">
+																<div>Доступ Клиента к on-line статистике</div>
+																<div>проекта через интерфейс iLP CRM</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div data-animate="1" class="section_digital__list__item">
+												<div class="section_digital__list__num"><span>3</span></div>
+												<div class="section_digital__list__cont">
+													<div class="section_digital__tasks__title">
+														<div class="section_digital__tasks__title__text">Анализ результатов</div>
+													</div>
+													<div class="section_digital__tasks__list">
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">
+																<div>Подробная статистика и анализ</div>
+																<div>результатов</div>
+															</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">Key learnings</div>
+														</div>
+														<div class="section_digital__tasks__list__item">
+															<div class="section_digital__tasks__list__text">
+																<div>Рекомендации для последующих</div>
+																<div>кампаний</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div data-animate="1" class="section_digital__about">
+										<div class="section_digital__about__text">
+											<div>Разработка, организация</div>
+											<div>и проведение рекламных кампаний</div>
+											<div>любой сложности на всей</div>
+											<div>территории России.</div>
+										</div>
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_w.png'></a>
+								<!--/a(href='#').slider__controls__btn.slider__controls__btn_next <img src='./img/slider/next_w.png'>-->
+							</div>
+							<div class="section section_trade">
+								<div data-animate="0" class="section_trade__fig_grey"></div>
+								<div class="section_trade__fig_orange"></div>
+								<div class="slider__item__content">
+									<div class="section_trade__container">
+										<div class="section_trade__headline">
+											<div class="section__headline section__headline_white">услуги</div>
+										</div>
+										<div data-animate="1" class="section_trade__title">
+											<div class="section_trade__title__text">
+												<div>Trade</div>
+												<div>Promotion</div>
+											</div>
+										</div>
+										<div class="section_trade__steps">
+											<div data-animate="2" class="section_trade__steps__item">
+												<div class="section_trade__steps__num"><span>1</span></div>
+												<div class="section_trade__steps__text"><span>Retail Loyalty Program</span></div>
+											</div>
+											<div data-animate="3" class="section_trade__steps__item">
+												<div class="section_trade__steps__num"><span>2</span></div>
+												<div class="section_trade__steps__text"><span>Аудиты в POS</span></div>
+											</div>
+											<div data-animate="4" class="section_trade__steps__item">
+												<div class="section_trade__steps__num"><span>3</span></div>
+												<div class="section_trade__steps__text"><span>Мерчендайзинг</span></div>
+											</div>
+										</div>
+									</div>
+									<div data-animate="1" class="section_trade__about">
+										<div class="section_trade__about__text">
+											<div>Мы являемся экспертами в</div>
+											<div>разработке и реализации программ</div>
+											<div>в области торгового маркетинга.</div>
+										</div>
+									</div>
+									<div data-animate="1" class="section_trade__tasks">
+										<div class="section_trade__tasks__title">
+											<div class="section_trade__tasks__title__text">Решаемые задачи</div>
+										</div>
+										<div class="section_trade__tasks__list">
+											<div class="section_trade__tasks__list__item">
+												<div class="section_trade__tasks__list__text">
+													<div>Увеличение объёмов продаж</div>
+													<div>в розницу – Sale-in;</div>
+												</div>
+											</div>
+											<div class="section_trade__tasks__list__item">
+												<div class="section_trade__tasks__list__text">
+													<div>Повышение лояльности торговых</div>
+													<div>точек к продукту и производителю;</div>
+												</div>
+											</div>
+											<div class="section_trade__tasks__list__item">
+												<div class="section_trade__tasks__list__text">
+													<div>Увеличение объёма продаж из</div>
+													<div>розницы – Sell-out;</div>
+												</div>
+											</div>
+											<div class="section_trade__tasks__list__item">
+												<div class="section_trade__tasks__list__text">
+													<div>Мониторинг и анализ информации</div>
+													<div>из «полей» до Клиента.</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div></span></div>
+				</section>
+				<section class="section">
+					<div class="slider"><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_o.png'></a></div>
+							<div class="section section_crm">
+								<div data-animate="0" class="section_crm__fig_orange"></div>
+								<div class="slider__item__content">
+									<div class="section_crm__container">
+										<div class="section_crm__headline">
+											<div class="section__headline section__headline_white">ILP CRM</div>
+										</div>
+										<div data-animate="0" class="section_crm__descr">
+											<div class="section_crm__descr__text">
+												<div>Это полноценное</div>
+												<div>программное решение,</div>
+												<div>позволяющее нам</div>
+												<div>не только собирать,</div>
+												<div>хранить и анализировать</div>
+												<div>данные, но и в сжатые</div>
+												<div>сроки производить</div>
+												<div>настройку и запуск</div>
+												<div>маркетинговых</div>
+												<div>программ любой</div>
+												<div>сложности.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="section_crm__scheme">
+									<div class="section_crm__scheme__circle"><img src="./img/crm/circle.png" data-animate="1" class="section_crm__scheme__circle__pic">
+										<div data-animate="2" class="section_crm__scheme__circle__text">
+											<div>iLPcrm ©</div>
+											<div>PLATFORM</div>
+										</div>
+									</div>
+									<div data-animate="3" class="section_crm__scheme__item section_crm__scheme__item_1">
+										<div class="section_crm__scheme__item__text">
+											<div>Статистика</div>
+											<div>и аналитика</div>
+										</div><img src="./img/crm/arrows/1.png" class="section_crm__scheme__item_1__arrow">
+									</div>
+									<div data-animate="3" class="section_crm__scheme__item section_crm__scheme__item_2">
+										<div class="section_crm__scheme__item__text">
+											<div>Кммуникации</div>
+											<div>с потребителями</div>
+										</div><img src="./img/crm/arrows/2.png" class="section_crm__scheme__item_2__arrow">
+									</div>
+									<div data-animate="3" class="section_crm__scheme__item section_crm__scheme__item_3">
+										<div class="section_crm__scheme__item__text">
+											<div>Хранение</div>
+											<div>и обработка</div>
+											<div>данных</div>
+										</div><img src="./img/crm/arrows/3.png" class="section_crm__scheme__item_3__arrow">
+									</div>
+									<div data-animate="3" class="section_crm__scheme__item section_crm__scheme__item_4">
+										<div class="section_crm__scheme__item__text">
+											<div>Подключение</div>
+											<div>к внешним сервисам</div>
+										</div><img src="./img/crm/arrows/4.png" class="section_crm__scheme__item_4__arrow">
+									</div>
+									<div data-animate="3" class="section_crm__scheme__item section_crm__scheme__item_5">
+										<div class="section_crm__scheme__item__text">
+											<div>Подключение</div>
+											<div>к сайтам</div>
+										</div><img src="./img/crm/arrows/5.png" class="section_crm__scheme__item_5__arrow">
+									</div>
+									<div data-animate="3" class="section_crm__scheme__item section_crm__scheme__item_6">
+										<div class="section_crm__scheme__item__text">
+											<div>Управление</div>
+											<div>промо-</div>
+											<div>программами</div>
+										</div><img src="./img/crm/arrows/6.png" class="section_crm__scheme__item_6__arrow">
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_o.png'></a><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_w.png'></a></div>
+							<div class="section section_func">
+								<div data-animate="2" class="section_func__fig_orange"></div><img src="./img/crm/monitor.png" data-animate="2" class="section_func__monitor">
+								<div class="slider__item__content">
+									<div class="section_func__container">
+										<div data-animate="0" class="section_func__headline">
+											<div class="section__headline">ILP CRM</div>
+										</div>
+										<div data-animate="1" class="section_func__title">
+											<div class="section_func__title__text">Возможности</div>
+										</div>
+										<div data-animate="1" class="section_func__descr">
+											<div class="section_func__descr__text">
+												<div>Функционал iLPcrm ©</div>
+												<div>достаточно гибкий</div>
+												<div>и широкий для</div>
+												<div>быстрого подключения</div>
+												<div>проектов любой</div>
+												<div>сложности без</div>
+												<div>дополнительного</div>
+												<div>програмирования.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_o.png'></a><a href="#" class="slider__controls__btn slider__controls__btn_next"><img src='./img/slider/next_o.png'></a></div>
+							<div class="section section_rule">
+								<div class="slider__item__content">
+									<div class="section_rule__container">
+										<div class="section_rule__headline">
+											<div class="section__headline">ILP CRM</div>
+										</div>
+										<div data-animate="0" class="section_rule__title">
+											<div class="section_rule__title__text">
+												<div>Система</div>
+												<div>управления</div>
+												<div>проектами</div>
+											</div>
+										</div>
+										<div data-animate="0" class="section_rule__about">
+											<div class="section_rule__about__text">
+												<div>Функционал нашей crm-системы</div>
+												<div>обладает возможностью работы</div>
+												<div>со всеми составляющими для</div>
+												<div>полномасштабного ведения проекта.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="section_rule__bottom">
+									<div data-animate="1" class="section_rule__bottom__item section_rule__bottom__item_1">
+										<div class="section_rule__bottom__item__cont">
+											<div class="section_rule__bottom__item__pic"><img src='./img/crm/icons/1.png'></div>
+											<div class="section_rule__bottom__item__title">Участники</div>
+											<div class="section_rule__bottom__item__text">
+												<div>Все данные, связанные</div>
+												<div>с участниками программ:</div>
+												<div>их персональные данные,</div>
+												<div>действия, обращения и т.п.</div>
+											</div>
+										</div>
+									</div>
+									<div data-animate="2" class="section_rule__bottom__item section_rule__bottom__item_2">
+										<div class="section_rule__bottom__item__cont">
+											<div class="section_rule__bottom__item__pic"><img src='./img/crm/icons/2.png'></div>
+											<div class="section_rule__bottom__item__title">Транзакции</div>
+											<div class="section_rule__bottom__item__text">
+												<div>Покупка/продажа</div>
+												<div>продуктов, регистриция</div>
+												<div>промо-кодов, система</div>
+												<div>управления счетами</div>
+												<div>виртуальных валют,</div>
+												<div>баллы.</div>
+											</div>
+										</div>
+									</div>
+									<div data-animate="3" class="section_rule__bottom__item section_rule__bottom__item_3">
+										<div class="section_rule__bottom__item__cont">
+											<div class="section_rule__bottom__item__pic"><img src='./img/crm/icons/3.png'></div>
+											<div class="section_rule__bottom__item__title">Призы</div>
+											<div class="section_rule__bottom__item__text">
+												<div style="padding: 0 .4em">Призовой фонд, его вывод во внешние источники (сайт, приложения, интерфейс горячей линии и пр.), возможность заказать/присвоить приз за определенные действия или&nbsp;количество баллов.</div>
+											</div>
+										</div>
+									</div>
+									<div data-animate="4" class="section_rule__bottom__item section_rule__bottom__item_4">
+										<div class="section_rule__bottom__item__cont">
+											<div class="section_rule__bottom__item__pic"><img src='./img/crm/icons/4.png'></div>
+											<div class="section_rule__bottom__item__title">Рассылки</div>
+											<div class="section_rule__bottom__item__text">
+												<div>Email, SMS push-уведомления</div>
+												<div>в приложениях. Все сообщения</div>
+												<div>персонализированы. Возможна</div>
+												<div>настройка любой отчетности,</div>
+												<div>сегментации, триггерных</div>
+												<div>авторассылок.</div>
+											</div>
+										</div>
+									</div>
+									<div data-animate="5" class="section_rule__bottom__item section_rule__bottom__item_5">
+										<div class="section_rule__bottom__item__cont">
+											<div class="section_rule__bottom__item__pic"><img src='./img/crm/icons/5.png'></div>
+											<div class="section_rule__bottom__item__title">Планировщик</div>
+											<div class="section_rule__bottom__item__text">
+												<div>Логика автоматического</div>
+												<div>реагирования  на действия</div>
+												<div>участников программы,</div>
+												<div>программирование алгоритмов</div>
+												<div>действий при наступлении</div>
+												<div>определенных событий или</div>
+												<div>достижении необходимых</div>
+												<div>показателей.</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div></span><span class="slider__item">
+							<div class="slider__controls"><a href="#" class="slider__controls__btn slider__controls__btn_prev"><img src='./img/slider/prev_o.png'></a></div>
+							<div class="section section_analis">
+								<div data-animate="0" class="section_analis__fig_white"><img src="./img/crm/pad.jpg" data-animate="1" class="section_analis__fig_white__pad"></div>
+								<div class="section_analis__fig_black"><img src="./img/about/corner_black.png" class="section_analis__fig_black__corner"></div>
+								<div class="slider__item__content">
+									<div class="section_analis__container">
+										<div class="section_analis__headline">
+											<div class="section__headline section__headline_white">ILP CRM</div>
+										</div>
+										<div data-animate="0" class="section_analis__title">
+											<div class="section_analis__title__text">
+												<div>Статистика</div>
+												<div>и анализ</div>
+											</div>
+										</div>
+										<div data-animate="0" class="section_analis__descr">
+											<div class="section_analis__descr__text">
+												<div>Для отслеживания оперативной</div>
+												<div>информации о проекте и получения</div>
+												<div>аналитических данных нами разработан</div>
+												<div>специальный статистический интерфейс.</div>
+											</div>
+										</div>
+										<div data-animate="0" class="section_analis__list">
+											<div class="section_analis__list__item">
+												<div class="section_analis__list__text">Общая статистическая информация по проекту</div>
+											</div>
+											<div class="section_analis__list__item">
+												<div class="section_analis__list__text">
+													<div>Сырые потоки данных по участникам, кодам,</div>
+													<div>событиям и действиям, призам</div>
+												</div>
+											</div>
+											<div class="section_analis__list__item">
+												<div class="section_analis__list__text">
+													<div>Выгрузка данных по участникам, кодам, событиям и</div>
+													<div>призам в формат csv</div>
+												</div>
+											</div>
+											<div class="section_analis__list__item">
+												<div class="section_analis__list__text">Отображение основных аналитических графиков</div>
+											</div>
+											<div class="section_analis__list__item">
+												<div class="section_analis__list__text">
+													<div>Возможность настройки стандартных</div>
+													<div>периодических отчетов и их выгрузка из системы</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div></span></div>
+				</section>
+			</div>
+			<div class="sidebar">
+				<div class="sidebar__logo"></div><a href="#" class="sidebar__burger"></a>
+				<div class="sidebar__menu"><a href="#" class="sidebar__menu__item active"><span class="sidebar__menu__item__point"></span></a><a href="#" class="sidebar__menu__item"><span class="sidebar__menu__item__point"></span></a><a href="#" class="sidebar__menu__item"><span class="sidebar__menu__item__point"></span></a><a href="#" class="sidebar__menu__item"><span class="sidebar__menu__item__point"></span></a></div>
+			</div>
+			<div class="menu">
+				<div class="sidebar__logo sidebar__logo_menu"></div><a href="#" class="menu__close"></a>
+				<div class="menu__list">
+					<div class="menu__list__item"><a class='nav_link' data-section='0' href='#'>Главная</a></div>
+					<div class="menu__list__item"><a class='nav_link' data-section='1' data-slide='1' href='#'>Об агентстве</a></div>
+					<div class="menu__list__item"><a class='nav_link' data-section='2' data-slide='1' href='#'>Услуги</a></div>
+					<div class="menu__list__item"><a class='nav_link' data-section='3' data-slide='1' href='#'>Тех. платформа</a></div>
+					<div class="menu__list__item"><a class='nav_link' data-section='1' data-slide='0' href='#'>Контакты</a></div>
+				</div>
+				<div class="menu__contacts">
+					<div class="menu__contacts__address">
+						<div class="menu__contacts__text">
+							<div>Москва, БЦ «Союз»,</div>
+							<div>Лужнецкая набережная, 2/4,</div>
+							<div>стр. 4, офис 212</div>
+						</div>
+					</div>
+					<div class="menu__contacts__phone">
+						<div class="menu__contacts__text">+7 (499) 705-01-84</div>
+					</div>
+					<div class="menu__contacts__mail">
+						<div class="menu__contacts__text">e-mail@ilp-agency.ru</div>
+					</div>
+				</div>
+				<div class="menu__socials"><a href="#" class="menu__socials__item"><img src='./img/sidebar/i_fb.png'></a><a href="#" class="menu__socials__item"><img src='./img/sidebar/i_tw.png'></a><a href="#" class="menu__socials__item"><img src='./img/sidebar/i_vk.png'></a></div>
+			</div>
+			<section class="popup">
+				<div class="popup__fig_grey"><img src="./img/popup/corner.png" class="popup__fig_grey__corner"></div><a href="#" class="popup__close"></a>
+				<div class="popup__strategy">
+					<div class="popup__strategy__center">
+						<div class="popup__strategy__center__text">
+							<div>Все данные хранятся</div>
+							<div>и обрабатываются</div>
+							<div>на базе</div>
+						</div>
+						<div class="popup__strategy__center__logo"><span>iLPcrm ©</span></div>
+					</div>
+					<div data-animate="0" class="popup__strategy__item popup__strategy__item_1"><img src="./img/popup/icons/1.png" class="popup__strategy__item_1__pic">
+						<div class="popup__strategy__item__text">Определение целей</div>
+					</div>
+					<div data-animate="1" class="popup__strategy__item popup__strategy__item_2"><img src="./img/popup/icons/2.png" class="popup__strategy__item_2__pic">
+						<div class="popup__strategy__item__text">
+							<div>Сбор данных</div>
+							<div>и анализ рынка</div>
+						</div>
+					</div>
+					<div data-animate="2" class="popup__strategy__item popup__strategy__item_3"><img src="./img/popup/icons/3.png" class="popup__strategy__item_3__pic">
+						<div class="popup__strategy__item__text">
+							<div>Изучение, анализ и сегментация</div>
+							<div>целевой аудитории</div>
+						</div>
+					</div>
+					<div data-animate="3" class="popup__strategy__item popup__strategy__item_4"><img src="./img/popup/icons/4.png" class="popup__strategy__item_4__pic">
+						<div class="popup__strategy__item__text">
+							<div>Определение релевантных</div>
+							<div>механик мотивации</div>
+						</div>
+					</div>
+					<div data-animate="4" class="popup__strategy__item popup__strategy__item_5"><img src="./img/popup/icons/5.png" class="popup__strategy__item_5__pic">
+						<div class="popup__strategy__item__text">
+							<div>Разработка гипотез</div>
+							<div>и тестирование</div>
+						</div>
+					</div>
+					<div data-animate="5" class="popup__strategy__item popup__strategy__item_6"><img src="./img/popup/icons/6.png" class="popup__strategy__item_6__pic">
+						<div class="popup__strategy__item__text">
+							<div>Работа с сегментами и создание</div>
+							<div>персонализированных предложений</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- scripts-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>window.jQuery || document.write('<script src="./js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+		<script src="./js/main.js"></script>
+	</body>
+</html>
