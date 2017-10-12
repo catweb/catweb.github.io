@@ -19,7 +19,7 @@ body {
 }
 .menu__content {
     display: table-cell;
-    vert-align: middle;
+    vertical-align: middle;
     width: 100%;
     height: 100%;
 }
