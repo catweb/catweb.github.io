@@ -21,7 +21,8 @@ body {
     height: 100%;
 }
 .menu__list {
-    max-width: 1300px;
+    max-width: 900px;
+    padding: 10px;
     margin: 0 auto;
     color: #404040;
 }
