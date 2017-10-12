@@ -25,12 +25,17 @@ body {
     padding: 10px 40px;
     margin: 0 auto;
     color: #404040;
+    font-size: 20px;
 }
 .menu__list a {
     color: #404040;
     text-decoration: none;
     border-bottom: 1px solid #404040;
+    transition: 200ms;
+}
+.menu__list a:hover {
+    border-color: darkred;
 }
 .menu__item {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
