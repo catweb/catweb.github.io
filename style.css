@@ -30,11 +30,11 @@ body {
 .menu__list a {
     color: #404040;
     text-decoration: none;
-    border-bottom: 1px solid #404040;
+    border-bottom: 2px solid #404040;
     transition: 200ms;
 }
 .menu__list a:hover {
-    border-color: darkred;
+    border-color: red;
 }
 .menu__item {
     margin-bottom: 20px;
