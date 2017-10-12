@@ -1,0 +1,29 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-size: 100.01%;
+}
+body {
+    font: 16px/1.3 "Tahoma", sans-serif;
+    width: 100%;
+    height: 100%;
+}
+.menu {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.menu__content {
+    display: table-cell;
+    vert-align: middle;
+    width: 100%;
+    height: 100%;
+}
+.menu__list {
+    max-width: 1300px;
+    margin: 0 auto;
+    color: #404040;
+}
+.menu__item {
+    margin-bottom: 10px;
+}
