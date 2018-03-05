@@ -628,7 +628,7 @@ var page = (function(){
             currSlider = slidersBase[CURRENT_LEVEL];
 
         if(typeof currSlider == 'object'){
-            if(currSlider.getCurrentIndex() == 1 && currSlider.getFlag()){
+            if(currSlider.getFlag()){
                 scrollTo(next_level);
             }
         }
@@ -655,7 +655,7 @@ var page = (function(){
 
                 if( xMovement < yMovement ){
                     if(typeof currSlider == 'object'){
-                        if(currSlider.getCurrentIndex() == 1 && currSlider.getFlag()){
+                        if(currSlider.getFlag()){
                             scrollTo(next_level);
                         }
                     }
