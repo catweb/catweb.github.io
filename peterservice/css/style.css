@@ -319,6 +319,7 @@ canvas {
   color: #8cba00;
   font-weight: 300;
   padding-left: 5px;
+  line-height: 1.2;
 }
 .service__description {
   font-size: 12px;
